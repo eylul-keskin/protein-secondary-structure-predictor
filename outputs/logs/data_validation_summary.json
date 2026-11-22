@@ -1,0 +1,396 @@
+{
+  "schema": {
+    "sequence_column": "seq",
+    "target_column": "sst8",
+    "auxiliary_target_column": "sst3"
+  },
+  "split_validation": {
+    "train": {
+      "split_name": "train",
+      "file_path": "training_secondary_structure_train.csv",
+      "total_rows": 8678,
+      "kept_rows": 8678,
+      "removed_rows": 0,
+      "missing_sequences": 0,
+      "missing_targets": 0,
+      "empty_sequences": 0,
+      "empty_targets": 0,
+      "length_mismatches": 0,
+      "invalid_label_rows": 0,
+      "duplicate_rows": 0,
+      "duplicate_sequences": 0,
+      "sequence_length_stats": {
+        "min": 20,
+        "max": 1632,
+        "mean": 255.99,
+        "median": 219.0
+      },
+      "unique_sequence_characters": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ],
+      "unique_target_labels": [
+        "B",
+        "C",
+        "E",
+        "G",
+        "H",
+        "I",
+        "S",
+        "T"
+      ],
+      "label_distribution": {
+        "B": 21215,
+        "C": 550496,
+        "E": 454241,
+        "G": 80325,
+        "H": 707583,
+        "I": 11178,
+        "S": 169046,
+        "T": 227423
+      },
+      "notes": [
+        "No unusable rows were removed from this split."
+      ]
+    },
+    "validation": {
+      "split_name": "validation",
+      "file_path": "validation_secondary_structure_valid.csv",
+      "total_rows": 2170,
+      "kept_rows": 2170,
+      "removed_rows": 0,
+      "missing_sequences": 0,
+      "missing_targets": 0,
+      "empty_sequences": 0,
+      "empty_targets": 0,
+      "length_mismatches": 0,
+      "invalid_label_rows": 0,
+      "duplicate_rows": 0,
+      "duplicate_sequences": 0,
+      "sequence_length_stats": {
+        "min": 20,
+        "max": 1228,
+        "mean": 256.65,
+        "median": 220.0
+      },
+      "unique_sequence_characters": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ],
+      "unique_target_labels": [
+        "B",
+        "C",
+        "E",
+        "G",
+        "H",
+        "I",
+        "S",
+        "T"
+      ],
+      "label_distribution": {
+        "B": 5320,
+        "C": 135975,
+        "E": 109598,
+        "G": 20214,
+        "H": 183979,
+        "I": 3044,
+        "S": 41985,
+        "T": 56816
+      },
+      "notes": [
+        "No unusable rows were removed from this split."
+      ]
+    },
+    "cb513": {
+      "split_name": "cb513",
+      "file_path": "test_secondary_structure_cb513.csv",
+      "total_rows": 513,
+      "kept_rows": 513,
+      "removed_rows": 0,
+      "missing_sequences": 0,
+      "missing_targets": 0,
+      "empty_sequences": 0,
+      "empty_targets": 0,
+      "length_mismatches": 0,
+      "invalid_label_rows": 0,
+      "duplicate_rows": 79,
+      "duplicate_sequences": 79,
+      "sequence_length_stats": {
+        "min": 20,
+        "max": 874,
+        "mean": 281.4,
+        "median": 238.0
+      },
+      "unique_sequence_characters": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ],
+      "unique_target_labels": [
+        "B",
+        "C",
+        "E",
+        "G",
+        "H",
+        "I",
+        "S",
+        "T"
+      ],
+      "label_distribution": {
+        "B": 1833,
+        "C": 33145,
+        "E": 30137,
+        "G": 5197,
+        "H": 43184,
+        "I": 801,
+        "S": 13561,
+        "T": 16502
+      },
+      "notes": [
+        "79 duplicate rows were detected and kept because this split is treated as a provided benchmark."
+      ]
+    },
+    "ts115": {
+      "split_name": "ts115",
+      "file_path": "test_secondary_structure_ts115.csv",
+      "total_rows": 115,
+      "kept_rows": 115,
+      "removed_rows": 0,
+      "missing_sequences": 0,
+      "missing_targets": 0,
+      "empty_sequences": 0,
+      "empty_targets": 0,
+      "length_mismatches": 0,
+      "invalid_label_rows": 0,
+      "duplicate_rows": 0,
+      "duplicate_sequences": 0,
+      "sequence_length_stats": {
+        "min": 43,
+        "max": 1111,
+        "mean": 258.3,
+        "median": 233.0
+      },
+      "unique_sequence_characters": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ],
+      "unique_target_labels": [
+        "B",
+        "C",
+        "E",
+        "G",
+        "H",
+        "I",
+        "S",
+        "T"
+      ],
+      "label_distribution": {
+        "B": 295,
+        "C": 7598,
+        "E": 5085,
+        "G": 1033,
+        "H": 10434,
+        "I": 174,
+        "S": 2210,
+        "T": 2875
+      },
+      "notes": [
+        "No unusable rows were removed from this split."
+      ]
+    },
+    "casp12": {
+      "split_name": "casp12",
+      "file_path": "test_secondary_structure_casp12.csv",
+      "total_rows": 21,
+      "kept_rows": 21,
+      "removed_rows": 0,
+      "missing_sequences": 0,
+      "missing_targets": 0,
+      "empty_sequences": 0,
+      "empty_targets": 0,
+      "length_mismatches": 0,
+      "invalid_label_rows": 0,
+      "duplicate_rows": 0,
+      "duplicate_sequences": 0,
+      "sequence_length_stats": {
+        "min": 76,
+        "max": 1494,
+        "mean": 345.52,
+        "median": 246.0
+      },
+      "unique_sequence_characters": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ],
+      "unique_target_labels": [
+        "B",
+        "C",
+        "E",
+        "G",
+        "H",
+        "I",
+        "S",
+        "T"
+      ],
+      "label_distribution": {
+        "B": 62,
+        "C": 2236,
+        "E": 1416,
+        "G": 215,
+        "H": 1989,
+        "I": 37,
+        "S": 668,
+        "T": 633
+      },
+      "notes": [
+        "No unusable rows were removed from this split."
+      ]
+    }
+  },
+  "split_overlaps": [
+    {
+      "split_a": "train",
+      "split_b": "validation",
+      "overlap_count": 0
+    },
+    {
+      "split_a": "train",
+      "split_b": "cb513",
+      "overlap_count": 2
+    },
+    {
+      "split_a": "train",
+      "split_b": "ts115",
+      "overlap_count": 1
+    },
+    {
+      "split_a": "train",
+      "split_b": "casp12",
+      "overlap_count": 0
+    },
+    {
+      "split_a": "validation",
+      "split_b": "cb513",
+      "overlap_count": 0
+    },
+    {
+      "split_a": "validation",
+      "split_b": "ts115",
+      "overlap_count": 0
+    },
+    {
+      "split_a": "validation",
+      "split_b": "casp12",
+      "overlap_count": 0
+    },
+    {
+      "split_a": "cb513",
+      "split_b": "ts115",
+      "overlap_count": 0
+    },
+    {
+      "split_a": "cb513",
+      "split_b": "casp12",
+      "overlap_count": 0
+    },
+    {
+      "split_a": "ts115",
+      "split_b": "casp12",
+      "overlap_count": 4
+    }
+  ]
+}

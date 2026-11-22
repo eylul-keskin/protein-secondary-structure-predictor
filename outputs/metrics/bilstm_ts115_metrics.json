@@ -1,0 +1,72 @@
+{
+  "split": "ts115",
+  "model": "bilstm",
+  "num_sequences": 115,
+  "num_tokens": 29704,
+  "accuracy": 0.5443037974683544,
+  "macro_f1": 0.2638136787869258,
+  "weighted_f1": 0.5024169081035287,
+  "label_order": [
+    "B",
+    "C",
+    "E",
+    "G",
+    "H",
+    "I",
+    "S",
+    "T"
+  ],
+  "top_confusion_pairs": [
+    {
+      "true_label": "C",
+      "predicted_label": "H",
+      "count": 1971
+    },
+    {
+      "true_label": "C",
+      "predicted_label": "E",
+      "count": 1324
+    },
+    {
+      "true_label": "H",
+      "predicted_label": "E",
+      "count": 1221
+    },
+    {
+      "true_label": "E",
+      "predicted_label": "H",
+      "count": 1022
+    },
+    {
+      "true_label": "T",
+      "predicted_label": "H",
+      "count": 990
+    },
+    {
+      "true_label": "S",
+      "predicted_label": "C",
+      "count": 851
+    },
+    {
+      "true_label": "H",
+      "predicted_label": "C",
+      "count": 648
+    },
+    {
+      "true_label": "T",
+      "predicted_label": "C",
+      "count": 629
+    },
+    {
+      "true_label": "E",
+      "predicted_label": "C",
+      "count": 626
+    },
+    {
+      "true_label": "S",
+      "predicted_label": "H",
+      "count": 567
+    }
+  ],
+  "loss": 1.2609718443488227
+}
